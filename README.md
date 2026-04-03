@@ -80,7 +80,7 @@ O projeto segue uma **arquitetura em camadas**, com responsabilidades claramente
 
 📐 Diagrama de arquitetura:
 ```
-docs/architecture.png
+![Visão geral do projeto](docs/architecture.png)
 ```
 
 ---
