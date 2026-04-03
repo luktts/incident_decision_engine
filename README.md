@@ -79,9 +79,9 @@ O projeto segue uma **arquitetura em camadas**, com responsabilidades claramente
 - `docs/` → Documentação arquitetural
 
 📐 Diagrama de arquitetura:
-```
+
 ![Visão geral do projeto](docs/architecture.png)
-```
+
 
 ---
 
