@@ -1,0 +1,30 @@
+[
+  {
+    "name": "sla_paused",
+    "conditions": {
+      "sla_paused": true
+    },
+    "actions": ["No action (SLA paused)"],
+    "priority": "low"
+  },
+  {
+    "name": "high_sla_risk_high_impact",
+    "conditions": {
+      "sla_percentage_gte": 75,
+      "impact": 1
+    },
+    "actions": [
+      "Notify manager via email",
+      "Schedule follow-up in 24h"
+    ],
+    "priority": "high"
+  },
+  {
+    "name": "moderate_sla_risk",
+    "conditions": {
+      "sla_percentage_gte": 70
+    },
+    "actions": ["Monitor incident"],
+    "priority": "normal"
+  }
+]
